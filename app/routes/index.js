@@ -129,7 +129,7 @@ const routes = [
           <PrivateRoute
             path="/worklogs"
             method="get"
-            resource="permission"
+            resource="worklogs"
             defaultPermission={false}
           >
             <WorkLogs />
